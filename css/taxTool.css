@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#restar{
+    border-radius: 4px;
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+    font-size: large;
+    vertical-align: top;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.field{
+    min-height: 100px;
+}
+
+#entrada{
+    position: relative;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tax Compare Tool</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Francisco Caracena">
+    <script src="js/taxTool.js"></script>
+    <link rel="stylesheet" href="css/taxTool.css">
+</head>
+
+<body>
+    <div id="entrada">
+        <textarea id="taxPaid" class="field" placeholder="Taxes paid"></textarea>
+        <textarea id="taxUsed" class="field" placeholder="Taxes to deduct"></textarea>
+        <input id="restar" class="button" type="button" value="Deduct" onclick="restar()" />
+    </div>
+    <div id="salida" hidden>
+        <strong>Remaining taxes: <span id="finalResult"></span></strong></br>
+        <textarea id="taxRemaining" class="field"></textarea>
+    </div>
+</body>
+
+</html>
