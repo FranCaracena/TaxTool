@@ -32,6 +32,7 @@ function restar() {
                     //display alert if the used amount is higher than the paid one
                     alert("The tax " + oldtax_arr[i].substring(oldtax_arr[i].length - 2, oldtax_arr[i].length) + " is higher to deduct than paid");
                     failed++;
+                    deduct = "yes";
                 }
                 a, b = 0;
             } else {
