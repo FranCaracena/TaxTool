@@ -22,3 +22,7 @@ body{
 #entrada{
     position: relative;
 }
+
+#disclaimer{
+ font-size: small;   
+}
